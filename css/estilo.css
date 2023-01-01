@@ -1,0 +1,103 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+#cabecalho{
+	background-color: orange;
+	text-align: center;
+	padding: 15px;
+}
+.titulo-lateral{
+	color: #4e4e4e;
+	background: #e6e6e6;
+	display: block;
+	font-size: 1.1em;
+	font-weight: bold;
+	padding: 4px;
+}
+h1{
+	color: #4e4e4e;
+	font-size: 2.5em;
+}
+#titulo{
+	padding: 10px;
+}
+#menu{
+	padding: 10px;
+}
+a{
+	padding: 8px;
+	margin: 0px 5px;
+	text-decoration: none;
+}
+a:link,a:visited{
+	color: white;
+}
+a:hover{
+	background: white;
+	color: orange;
+}
+#corpo{
+	width: 920px;
+	margin: 15px auto;
+
+}
+.principal{
+	background: white;
+	width: 640px;
+	float: left;
+	margin-bottom: 17px;
+}
+#lateral{
+	width: 260px;
+	float: right;
+}
+.conteudo-lateral{
+	padding: 7px;
+	background: white;
+	margin-bottom: 15px;
+}
+.post{
+	font-size: 0.8em;
+	border-bottom: 1px solid #e6e6e6;
+}
+#conteudo{
+	margin: 15px;
+}
+h2{
+	font-size: 1.4em;
+	color: orange;
+}
+.datas{
+	font-size: 0.8em;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e6e6e6;
+	display: block;
+	margin-bottom: 10px;
+}
+.clear{
+	clear: both;
+}
+#corpo a:link, #corpo a:visited{
+	color: orange;
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+}
+#corpo a:hover{
+ 	text-decoration: underline;
+ 	background: transparent;
+ 	margin: 0px;
+ 	padding: 0px;
+ }
+ .post-lateral{
+ 	background: white;
+ }
+ .conteudo-lateral a{
+ 	display: block;
+ }
